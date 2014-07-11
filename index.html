@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>MMS</title>
+        <script src="static/js/jquery-2.1.1.js"></script>
+        <script src="static/js/jquery.class.js"></script>
+        <script src="static/js/underscore-1.6.0.js"></script>
+        <script src="static/js/backbone-1.1.2.js"></script>
+        <script src="static/js/digest-auth.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <h1>MMS</h1>
+        <h2>Credentials</h2>
+        <form>
+            MMS Username: <input type="text" id="username" size="30">
+            MMS Public API Key: <input type="password" id="apiKey" size="30">
+            <input type="button" value="OK" id="authButton">
+        </form>
+        <h2>Your Groups</h2>
+        <div id="groupList">Loading groups...</div>
+        <h2>Hosts in Group</h2>
+        <div id="hostList">No group selected.</div>
+        <h2>Alerts</h2>
+        <div id="alerts">No group selected.</div>
+    </body>
+</html>
